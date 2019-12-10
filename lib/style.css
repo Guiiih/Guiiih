@@ -1,0 +1,110 @@
+html {
+  scroll-behavior: smooth;
+}
+
+a{
+  text-decoration:none;
+}
+
+body {
+  margin: 0;
+  background: #1D1C1E;
+  height: 90vh;
+}
+
+header{
+  background: transparent;
+}
+
+nav{
+  position: sticky;
+  top: 0;
+}
+
+.inicio {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex: 1 0 30vw;
+}
+.menu li {
+  margin: 0 1rem;
+}
+.menu li a {
+  font-family: Agency FB,bold;
+  font-size: 1em;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.menu-1 {
+  justify-content: flex-end;
+}
+
+.logo {
+  text-align: center;
+}
+.logo img {
+  width: 60px;
+  border-radius: 50%;
+}
+
+.conteudo-home{
+  text-align: center;
+  padding-top: 1.5em;
+}
+
+.conteudo-home img{
+  width: 48%;
+}
+
+.number-icons{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: -30px;
+}
+
+.number img{
+  width: 70%;
+}
+
+.number{
+  margin-left: 15px;
+  margin-top: 50px;
+}
+
+.icons{
+  margin-top: 30px;
+  margin-left: 400px;
+
+}
+
+.icons img{
+  width: 25px;
+}
+
+.scroll-down{
+  margin-left: 450px;
+}
+
+.scroll-down img{
+  width: 40%
+}
+
+.text h1{
+  font-size: 1.5em;
+  color: #ffffff;
+  text-align: center;
+}
+
+.text a{
+  color: #ffffff;
+}
