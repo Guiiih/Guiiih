@@ -117,19 +117,12 @@ nav{
   border-radius: 50%;
 }
 .footer{
-  background-color: #EDE8F2;
   text-align:  center;
-  padding: 20px;
+  padding: 10px;
   margin-left: 150px;
   margin-right: 150px;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px; 
+  color: #ffff;
 }
-.scroll img{
-  width: 10%
 
-}
-.scroll{
-  margin-left: 800px;
-  margin-top: -30px;
-}

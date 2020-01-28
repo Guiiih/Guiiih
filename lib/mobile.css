@@ -7,16 +7,12 @@
     width: 90%;
   }
   .icons{
-    margin-top: 180px;
+    margin-top: 160px;
     margin-left: 110px;
   }
 
   .icons img{
     width: 25px;
-  }
-
-  .scroll-down{
-    display: none;
   }
   .user img{
     width: 40%
@@ -36,9 +32,6 @@
   .footer{
     margin: 0px;
     background-color: #1D1C1E;
-  }
-  .footer p{
-    color: #ffff;
   }
 }
 
