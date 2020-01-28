@@ -1,0 +1,44 @@
+@media only screen and (max-width: 768px) {
+  .inicio{
+    display: none;
+  }
+  .conteudo-home img{
+    margin-top: 150px;
+    width: 90%;
+  }
+  .icons{
+    margin-top: 180px;
+    margin-left: 110px;
+  }
+
+  .icons img{
+    width: 25px;
+  }
+
+  .scroll-down{
+    display: none;
+  }
+  .user img{
+    width: 40%
+  }
+  .card-title{
+    margin-top: 80px;
+  }
+  .card-title p{
+    padding: 0px;
+  }
+  #about .card{
+    margin-top: -75px;
+  }
+  .card{
+    margin: 0px;
+  }
+  .footer{
+    margin: 0px;
+    background-color: #1D1C1E;
+  }
+  .footer p{
+    color: #ffff;
+  }
+}
+
