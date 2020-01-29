@@ -64,17 +64,9 @@ nav{
   width: 48%;
 }
 
-.number-icons{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 30px;
-}
-
 .icons{
+  text-align: center;
   margin-top: 30px;
-  margin-left: 610px;
-
 }
 
 .icons img{
