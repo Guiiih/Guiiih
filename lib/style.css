@@ -75,6 +75,18 @@ nav{
 .text a{
   color: #ffffff;
 }
+p::selection {   
+  background: #AAB2BD;    
+  color: #FFF;  
+}
+.card-title::selection {   
+  background: #AAB2BD;    
+  color: #FFF;  
+}
+.title a::selection {   
+  background: #AAB2BD;    
+  color: #FFF;  
+}   
 .card {
   padding: 16px;
   border-radius: 2px;
