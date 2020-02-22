@@ -3,34 +3,57 @@
     display: none;
   }
   .conteudo-home img{
-    margin-top: 150px;
+    margin-top: 10px;
     width: 90%;
   }
   .icons{
-    margin-top: 180px;
+    margin-top: 200px;
   }
-
   .icons img{
     width: 25px;
   }
-  .user img{
-    width: 40%
-  }
   .card-title{
-    margin-top: 80px;
-  }
-  .card-title p{
-    padding: 0px;
-  }
-  #about .card{
-    margin-top: -75px;
-  }
-  .card{
     margin: 0px;
+    margin-bottom: 10px;
   }
   .footer{
     margin: 0px;
     background-color: #1D1C1E;
   }
+  .card p{
+    margin: 0px;
+  }
+  .card-1{
+    margin: 0px;
+  }
+  .card-2{
+    margin: 0px;
+    width: 290px;
+    height: 300px;
+  }
+  .card-1 .card-3{
+    margin: 0px;
+    margin-top: 20px;
+    width: 290px;
+    height: 300px;
+  }
+  .card-1 .card-4{
+    margin: 0px;
+    margin-top: 20px;
+    width: 290px;
+    height: 300px;
+  }
+  .card-1 .card-5{
+    margin: 0px;
+    margin-top: 20px;
+    width: 290px;
+    height: 300px;
+  }
+  .img-project{
+   width: 290px;
+   height: 190px;
+  }
+}
+
 }
 
