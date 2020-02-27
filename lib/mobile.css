@@ -3,57 +3,31 @@
     display: none;
   }
   .conteudo-home img{
-    margin-top: 10px;
+    margin-top: 15px;
     width: 90%;
   }
   .icons{
     margin-top: 200px;
   }
-  .icons img{
-    width: 25px;
+  .card{
+    margin: 20px;
   }
-  .card-title{
-    margin: 0px;
-    margin-bottom: 10px;
-  }
-  .footer{
-    margin: 0px;
-    background-color: #1D1C1E;
-  }
-  .card p{
+  .title{
     margin: 0px;
   }
-  .card-1{
+  .box p{
     margin: 0px;
-  }
-  .card-2{
-    margin-left: 20px;
-    width: 290px;
-    height: 300px;
-  }
-  .card-1 .card-3{
-    margin-left: 20px;
-    margin-top: 20px;
-    width: 290px;
-    height: 300px;
-  }
-  .card-1 .card-4{
-    margin-left: 20px;
-    margin-top: 20px;
-    width: 290px;
-    height: 300px;
-  }
-  .card-1 .card-5{
-    margin-left: 20px;
-    margin-top: 20px;
-    width: 290px;
-    height: 300px;
-  }
-  .img-project{
-   width: 290px;
-   height: 190px;
+    margin-top: 10px;
   }
 }
-
+@media (min-width: 576px) {
+  .deck {
+    display: flex;
+    margin: 30px;
+  }
+  .deck .card {
+    flex: 1 0 0%;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
 }
-

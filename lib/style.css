@@ -10,9 +10,6 @@ body {
   background: #1D1C1E;
   height: 90vh;
 }
-header{
-  background: transparent;
-}
 nav{
   position: fixed; 
   top: 0;
@@ -23,9 +20,6 @@ nav{
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-.menu a:hover{
-  color: #fff;
 }
 .menu {
   list-style: none;
@@ -46,8 +40,8 @@ nav{
 .menu-1 {
   justify-content: flex-end;
 }
-.logo {
-  text-align: center;
+.menu a:hover{
+  color: #fff;
 }
 .logo img {
   width: 60px;
@@ -62,37 +56,20 @@ nav{
 }
 .icons{
   text-align: center;
-  margin-top: 60px;
+  margin-top: 50px;
 }
 .icons img{
+  margin-bottom: 35px;
   width: 25px;
 }
-.text h1{
-  font-size: 1.5em;
-  color: #ffffff;
-  text-align: center;
-}
-.text a{
-  color: #ffffff;
-}
-p::selection {   
-  background: #AAB2BD;    
-  color: #FFF;  
-}
-.card-title::selection {   
-  background: #AAB2BD;    
-  color: #FFF;  
-}
-.title a::selection {   
-  background: #AAB2BD;    
-  color: #FFF;  
-}   
-.card {
+.box{
+  flex: 0 0 100%;
+  max-width: 100%;
   padding: 16px;
   border-radius: 2px;
   background-color: #EDE8F2;
 }
-.card-title {
+.title {
   font-family: 'Poppins',semibold;
   margin-left: 20px;
   margin-top: 125px;
@@ -100,7 +77,7 @@ p::selection {
   font-size: 30px;
   line-height: 32px;
 }
-.card p {
+.box p {
   margin: 20px;
   margin-bottom: 125px;
   font-size: 1.4rem;
@@ -109,80 +86,44 @@ p::selection {
   line-height: 1.6em;
   padding: 0 16px;
 }
-.card-1 {
-  padding: 16px;
-  border-radius: 2px;
+.card {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
   background-color: #EDE8F2;
-  margin-top: 40px;
-  margin-bottom: 40px;
 }
-.card-2 {
-  margin-top: 20px;
-  margin-left: 30px;
-  width: 300px;
-  height: 350px;
-  background: #EDE8F2; 
+.card-body {
+  padding: 1rem;
 }
-.card-3 {
-  width: 300px;
-  height: 350px;
-  background: #EDE8F2; 
-  margin-left: 350px;
-  margin-top: -350px;
-}
-.card-4 {
-  width: 300px;
-  height: 350px;
-  background: #EDE8F2; 
-  margin-left: 670px;
-  margin-top: -350px;
-}
-.card-5 {
-  width: 300px;
-  height: 350px;
-  background: #EDE8F2; 
-  margin-left: 990px;
-  margin-top: -350px;
-}
-.title {
-  margin-top: -20px;
-  font-family: 'Poppins';
-  padding: 24px 16px 8px;
-  font-size: 30px;
-  line-height: 32px;
-}
-.title a{
+.card-title a{
   color: black;
+  font-family: 'Poppins';
+  font-size: 20px;
 }
-.title a:hover{
-  color: #434A54;
+.card-title a:hover{
+  color: #1D1C1E;
 }
-.img-project{
-  width: 300px;
-  height: 240px;
-}
-.description{
-  padding: 0 16px;
-  font-size: 1rem;  
-}
-.card-2:hover {
+.card:hover {
   box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
-.card-3:hover {
-  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+p::selection {   
+  background: #AAB2BD;    
+  color: #FFF;  
 }
-.card-4:hover {
-  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+.title::selection {   
+  background: #AAB2BD;    
+  color: #FFF;  
 }
-.card-5:hover {
-  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+.title a::selection {   
+  background: #AAB2BD;    
+  color: #FFF;  
 }
+.card-title ::selection {   
+  background: #AAB2BD;    
+  color: #FFF;  
+}      
 .footer{
-  text-align:  center;
-  padding: 10px;
-  margin-left: 150px;
-  margin-right: 150px;
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px; 
+  text-align: center;
+  padding: 5px;
   color: #ffff;
 }
