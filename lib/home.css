@@ -1,0 +1,76 @@
+.conteudo-home {
+  text-align: center;
+  padding-top: 5em;
+}
+
+.conteudo-home img {
+  width: 50%;
+}
+
+.icons {
+  text-align: center;
+  margin-top: 80px;
+}
+
+.icons img {
+  margin-bottom: 35px;
+  width: 25px;
+}
+
+
+
+.box .works {
+  display: grid;
+  width: 70%;
+  margin: 40px auto;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 3vh;
+}
+
+.box .works .work-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.box .works .work-item img {
+  width: 150px;
+  height: 150px;
+}
+
+.box .works .work-item {
+  border-radius: 5px;
+  background-color: blue;
+}
+
+.box .works .work-item a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.box .works .work-item a {
+  font-family: "Poppins", semibold;
+  color: #ede8f2;
+  font-size: 15px;
+
+  cursor: pointer;
+}
+
+h4:hover {
+  color: #fff;
+}
+
+.box .works .work-item:first-child {
+  grid-row-start: span 2;
+}
+
+.box .works .work-item:nth-child(4) {
+  grid-column-start: span 2;
+}
+
+.box .works .work-item:nth-child(5) {
+  grid-column-start: span 2;
+}
