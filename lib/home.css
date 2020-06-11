@@ -17,8 +17,6 @@
   width: 25px;
 }
 
-
-
 .box .works {
   display: grid;
   width: 70%;
@@ -74,3 +72,4 @@ h4:hover {
 .box .works .work-item:nth-child(5) {
   grid-column-start: span 2;
 }
+
